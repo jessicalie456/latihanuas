@@ -1,4 +1,4 @@
-.{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,8 +7,8 @@
 .container{
     display: flex;
     justify-content: space-between;
-
 }
+
 .hero{
     background-image: url("assets/hero.png");
     background-size: cover;
@@ -17,12 +17,26 @@
     position: relative;
     padding: 30px 60px;
 }
+
 .main-nav a{
-    align-items: center;
-    margin: 10px;
-    background-color: aqua;
-    border: solid 2px red;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: background 0.3s;
 }
+
+.main-nav .active{
+    background-color: white;
+    color: #3b82f6;
+}
+
+.logo{
+    color: white;
+}
+
+
 
 .judul{
     align-items: center;
