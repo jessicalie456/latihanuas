@@ -1,0 +1,213 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hero{
+    background-image: url("assets/hero.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    padding: 30px 60px;
+}
+.main-nav a{
+    align-items: center;
+    margin: 10px;
+    background-color: aqua;
+    border: solid 2px red;
+}
+
+.judul{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.subtext{
+    justify-content: center;
+    display: flex;
+}
+
+.search-btn{
+    background-color: blue;
+}
+
+.search-box{
+    background-color: red;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 850px;
+    position: relative;
+}
+
+.search-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 15 px;
+}
+
+.tabs{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab{
+    background: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 12px 12px 0 0;
+    background-color: #f0f0ff;
+    cursor: pointer;
+}
+
+.tab.active{
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-bottom: none;
+    color: #4d56ff;
+}
+
+.form-group{
+    flex: 1;
+    min-width: 150px;
+}
+
+label{
+    font-size: 0.8em;
+    color: #888;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.input{
+    border: 1px solid #ddd;
+  padding: 12px 15px;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+
+.search-btn {
+    background-color: #4d65ff;
+    border: none;
+    border-radius: 40%;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destination{
+    padding: 40px 20px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.destination h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.filter-tabs{
+    margin-bottom: 30px;
+}
+
+.filter-tabs button{
+    background: transparent;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.filter-tabs .active{
+    background: #e9ecf4;
+    border-radius: 10px;
+    color: #3a56ff;
+    font-weight: 600;
+}
+
+.allcard{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card-list{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.card{
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    width: 180px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.card-img{
+    position: relative;
+}
+
+.card-img img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-img .rating{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff8e1;
+    color: #ff9800;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.card-body {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .card-body h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 5px;
+  }
+  
+  .card-body p {
+    font-size: 13px;
+    color: #999;
+    margin: 0;
+  } 
